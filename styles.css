@@ -1,0 +1,89 @@
+/* Общие стили */
+body {
+    background-color: #f0f8ff; /* Нежно-голубой фон */
+    font-family: Arial, sans-serif; /* Основной шрифт */
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    color: #333; /* Основной цвет текста */
+}
+
+/* Контейнер для всей страницы */
+.container {
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрируем контейнер */
+    padding: 20px; /* Внутренние отступы */
+}
+
+/* Заголовок */
+h1 {
+    text-align: center; /* Выравниваем заголовок по центру */
+    color: #0056b3; /* Темно-синий цвет */
+}
+
+/* Основной блок */
+.main-content {
+    display: flex; /* Flexbox для разделения блоков */
+    justify-content: space-between; /* Пространство между блоками */
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    gap: 20px; /* Расстояние между блоками */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+/* Блок с фото */
+.image {
+    flex: 2; /* Занимает большую часть пространства */
+    text-align: center; /* Центрируем содержимое */
+}
+
+/* Стили для изображения */
+.image img {
+    max-width: 50%; /* Максимальная ширина изображения */
+    height: auto; /* Сохраняем пропорции */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Блок с информацией */
+.info-block {
+    flex: 2; /* Меньшая часть для правого блока */
+    background-color: #ffffff; /* Белый фон */
+    border: 1px solid #ddd; /* Легкая рамка */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для объема */
+}
+
+/* Стили для списков */
+.info-block ul {
+    list-style-type: disc; /* Маркеры в виде точек */
+    padding-left: 20px; /* Отступ слева */
+}
+
+/* Ссылки на социальные сети */
+.links a {
+    display: inline-block; /* Каждая ссылка отдельным блоком */
+    margin-right: 10px; /* Отступ между ссылками */
+    color: #0056b3; /* Темно-синий цвет */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.links a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block; /* Блочный элемент */
+    padding: 10px 20px; /* Внутренние отступы */
+    margin-top: 10px; /* Отступ сверху */
+    background-color: #0056b3; /* Темно-синий фон */
+    color: white; /* Белый цвет текста */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Указатель мыши */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.btn:hover {
+    background-color: #004494; /* Более темный цвет при наведении */
+}
